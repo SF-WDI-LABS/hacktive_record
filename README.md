@@ -34,7 +34,7 @@ You can also install gems individually (e.g. `gem install ffaker`), but `bundle`
 
 Now dive into [FFaker's Documentation](https://github.com/ffaker/ffaker/blob/master/REFERENCE.md)!
 
-####Pro Tip: Requiring Gems & the Ruby Console
+#### Pro Tip: Requiring Gems & the Ruby Console
 You're probably asking yourself, "how can I play with this ffaker data?". Why, in the Ruby Console of course!
 
 To launch the REPL, type:
@@ -122,7 +122,7 @@ puts Speaker.all
 
 **Stretch**: Can you model both a `Speaker` and a `Talk` object, using our simplified HacktiveRecord? (Hint: you may need to specify `speaker_id` on your talk objects so you know who they belong to!)
 
-#Ready for Rails!
+# Ready for Rails!
 This has been a very light introduction to faking data, seeding your database, and working with models and inheritance. We're ready to dive into rails and work with ActiveRecord!
 
 ####1. Create a new rails application
@@ -147,7 +147,7 @@ And take a look at the following files:
 * `app/models/talk.rb`
 * `db/migrate/1234566789_create_talks.rb`
 
-####3. Setup your database
+#### 3. Setup your database
 Download and Launch Postgres.app. You should see an elephant in your menu if it's running.
 
 Next, create your application database:
@@ -191,7 +191,7 @@ Talk.all
 
 **Pro-Tip**: Remember, when you're working in the console/repl `up-arrow` is your friend! (That and "hanging a dot" + "double-tabbing").
 
-####5. Can you seed your database?
+#### 5. Can you seed your database?
 Take a look at `db/seed.rb`.
 
 Add the following line:
