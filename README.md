@@ -125,7 +125,7 @@ puts Speaker.all
 # Ready for Rails!
 This has been a very light introduction to faking data, seeding your database, and working with models and inheritance. We're ready to dive into rails and work with ActiveRecord!
 
-####1. Create a new rails application
+#### 1. Create a new rails application
 **Make sure you're in a new project folder**
 ``` bash
 rails new conference_app -T -d postgresql
@@ -137,7 +137,7 @@ git commit -m "inital commit, rails skeleton"
 subl .
 ```
 
-####2. Create a `Talk` model
+#### 2. Create a `Talk` model
 ``` bash
 rails g model talk topic:string duration:integer
 git diff # take a look at the files you just created!
@@ -156,7 +156,7 @@ rake db:create # create a new database on your machine
 rake db:migrate # instruct your database what tables it needs to contain
 ```
 
-####4. Launch the rails console and create your first talk!
+#### 4. Launch the rails console and create your first talk!
 ```bash
 rails console
 # or
